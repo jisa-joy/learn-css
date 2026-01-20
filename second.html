@@ -1,0 +1,63 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./second.css">
+</head>
+<body>
+    <h2>Content box</h2>
+    <div class="box"class="content-box">
+        This is <strong>Content Box</strong>
+        <br>
+        Total width = content + padding + border
+    </div>
+    <h2>border box</h2>
+    <div class="box" class="border-box">
+        This is <strong>Border Box</strong>
+        <br>
+        Total width is 200px
+    </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Box Sizing Examples</title>
+<style>
+  .box {
+    margin: 20px;
+    padding: 20px;
+    border: 4px solid #333;
+    background: #f0f0f0;
+  }
+
+  .content-box {
+    box-sizing: content-box;
+    width: 200px;
+  }
+
+  .border-box {
+    box-sizing: border-box;
+    width: 200px;
+  }
+</style>
+</head>
+<body>
+
+<h2>content-box (default)</h2>
+<div class="box content-box">
+  This is <strong>content-box</strong>.<br>
+  Total width = content (200px) + padding + border
+</div>
+
+<h2>border-box</h2>
+<div class="box border-box">
+  This is <strong>border-box</strong>.<br>
+  Total width = 200px (includes padding & border)
+</div>
+
+</body>
+</html>

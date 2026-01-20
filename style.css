@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+.description{
+    padding: 20px;
+}

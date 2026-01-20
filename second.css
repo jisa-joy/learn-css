@@ -1,0 +1,15 @@
+
+.box{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: blueviolet;
+}
+.content-box{
+    box-sizing: content-box;
+    width: 200px;
+}
+.border-box{
+    box-sizing: border-box;
+    width: 200px;
+}
